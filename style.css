@@ -1,0 +1,146 @@
+body {
+    background: #43b427;
+    font-family: 'Red Rose', cursive;
+}
+#generadorCartas {
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 35px;
+    height: 22px;
+    border: none;
+    padding-left: 25px;
+}
+label{
+    font-weight: bold;
+}
+
+.botones {
+    border-radius: 2px;
+    border:none;
+    height: 25px;
+    font-family: 'Red Rose', cursive;
+    background: rgb(78, 156, 207);
+    color: white;
+    margin-left: 8px;
+    width: 85px;
+    font-size: 15px;
+}
+
+p {
+    font-weight: bold;  
+}
+#cartasGeneradas {
+    padding-left: 27px;
+}
+.carta {
+    width: 60px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.carta .number{
+    font-size: 60px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.pica::before{
+    content: "\2660";
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.pica::after{
+    content: "\2660";
+    font-size: 25px;
+    color: black;
+    display: block;
+    width: 100%;
+    text-align: left;
+    transform: rotate(180deg)
+}
+
+.corazones::before{
+    content: "\2665";
+    font-size: 25px;
+    color: red;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.corazones::after{
+    content: "\2665";
+    font-size: 25px;
+    color: red;
+    display: block;
+    width: 100%;
+    text-align: left;
+    transform: rotate(180deg)
+}
+
+.diamantes::before{
+    content: "\2666";
+    font-size: 25px;
+    color: red;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.diamantes::after{
+    content: "\2666";
+    font-size: 25px;
+    color: red;
+    display: block;
+    text-align: left;
+    transform: rotate(180deg)
+}
+
+.trebol::before{
+    content: "\2663";
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.trebol::after{
+    content: "\2663";
+    font-size: 25px;
+    color: black;
+    display: block;
+    text-align: left;
+    transform: rotate(180deg)
+}
+
+span {
+    font-size: 30px;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.x1 {
+    padding-right: 17px;
+}
+
+.pasos{
+    display: inline-block;
+}
